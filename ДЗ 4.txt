@@ -1,0 +1,18 @@
+Ѕазы данных:
+
+
+Ќапишите запрос, который выведет все записи из таблицы Products
+SELECT * FROM Products
+
+Ќапишите запрос, который выведет только те записи из таблицы Products, в которых цена (product_price) больше 4
+SELECT * FROM Products WHERE prod_price > 4
+
+Ќапишите запрос, которые вернет только те записи из таблицы Customers, в которых cust_name Ќ≈ равно Fun4All
+SELECT * FROM Customers WHERE cust_name != 'Fun4All'
+
+Ќапишите запрос, который вернет все записи из таблицы OrderItems, отсортированные по уменьшению цены
+SELECT * FROM OrderItems ORDER BY item_price DESC
+
+ Ќапишите запрос, добавл€ющий новую запись в таблицу Products. ƒанные можно использовать произвольные.
+	INSERT INTO Products (prod_id, vend_id, prod_name, prod_price, prod_desc)
+	VALUES ('TEST08', 'test08', 'Helicopter', '11.5', '15 inch blue helicopter')
